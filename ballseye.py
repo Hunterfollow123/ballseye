@@ -97,6 +97,9 @@ time.sleep(1)
 while True:
     cmd = str(input("ballseyeV2_> "))
     if cmd == "1":
+        list_1.clear()
+        list_2.clear()
+        
         c()
         print(banner_2)
         ask("name")
