@@ -5,6 +5,7 @@
 import os
 import random
 import time
+import sys
 
 # os.chdir("/sdcard/")
 
@@ -58,6 +59,30 @@ def rm():
   
     for line in content_set:
        cleandata.write(line)
+
+def t(s):
+        for i in s + '\n':
+                sys.stdout.write(i)
+                sys.stdout.flush()
+                time.sleep(10. / 2100)
+
+def ban():
+    os.system("clear")
+    print(" ")
+    t("  ____        _ _                     ") 
+    t(" |  _ \      | | |                     ")
+    t(" | |_) | __ _| | |___  ___ _   _  ___  ")
+    t(" |  _ < / _` | | / __|/ _ \ | | |/ _ \ ")
+    t(" | |_) | (_| | | \__ \  __/ |_| |  __/ ")
+    t(" |____/ \__,_|_|_|___/\___|\__, |\___| ")
+    t("                            __/ |       V2")
+    t("                           |___/       ")
+    t("       By : Hunter Follow    ")
+    t("   ")
+    t("  ")
+    t("  \33[93m[\33[97m1\33[93m]\33[97m Make wordlist  ") 
+    t("  \33[93m[\33[97m0\33[93m]\33[97m Exit\n")
+
     
 banner = """
 
@@ -89,7 +114,7 @@ banner_2 = """
        By : Hunter Follow    
    
 """
-print(banner)
+ban()
 
 time.sleep(1)
 
