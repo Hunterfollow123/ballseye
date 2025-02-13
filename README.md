@@ -1,6 +1,5 @@
 # ballseye
-ballseye is a user profile based password-list generator.
-
+ballseye is a user profile based password-list generator.  
 It will generate every possible password combination with the given information about the target.
 
 
