@@ -1,20 +1,15 @@
-#-*-coding:utf8;-*-
-#qpy:3
-#qpy:console
-
+# @Hunterfollow123
+# Use for legal purposes only
 import os
 import random
 import time
 import sys
 
-# os.chdir("/sdcard/")
-
 # clear
 def c():
     os.system("clear")
     
-c()    
-
+c()
 
 # Lists
 list_1 = []
@@ -116,9 +111,6 @@ banner_2 = """
 """
 ban()
 
-time.sleep(1)
-
-
 while True:
     cmd = str(input("ballseyeV2_> "))
     if cmd == "1":
@@ -153,13 +145,11 @@ while True:
        
         add()
         file_name = str(input("\n\33[92mPlease name the file : \33[97m"))
-        file_name_2 = "/sdcard/" + file_name + ".txt"
+        file_name_2 = file_name + ".txt"
         if ".txt" in file_name:
-            file_name_2 = "/sdcard/" + file_name + ""
-    
+            file_name_2 = file_name + ""
+        
         file = open(file_name_2, "w")
-        
-        
         
         def write():
             for i in range(15000):
@@ -190,8 +180,8 @@ while True:
         
     elif cmd == "0":
         print("\nExiting...", end="\r")
-        time.sleep(1.3)
-        print("bye :D     ")
+        time.sleep(0.5)
+        print("bye :D     \n")
         exit()
   
   
