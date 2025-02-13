@@ -43,7 +43,7 @@ def add():
 def w():
     for i in enumerate(list(range(101))):
         print("writing the list..", str(i) + "%", end="\r")
-        time.sleep(0.02)
+        time.sleep(0.005)
 
 
 def rm():
@@ -59,7 +59,7 @@ def t(s):
         for i in s + '\n':
                 sys.stdout.write(i)
                 sys.stdout.flush()
-                time.sleep(10. / 2100)
+                time.sleep(10. / 6100)
 
 def ban():
     os.system("clear")
@@ -176,11 +176,11 @@ while True:
         w()
         write()
         rm()
-        print("\n\nDone :)\n\npath : " + "\33[92m" + file_name_2 + "\n\33[97m")
+        print("\n\nDone :)\n\npath : " + "\33[92m~/" + file_name_2 + "\n\33[97m")
         
     elif cmd == "0":
         print("\nExiting...", end="\r")
-        time.sleep(0.5)
+        time.sleep(0.3)
         print("bye :D     \n")
         exit()
   
@@ -192,6 +192,6 @@ while True:
  
  
     else:
-        print("[\33[91mInvalid !\33[97m]")
+        print("\33[91m[!] Invalid !\33[37m")
 
 
