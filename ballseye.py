@@ -176,7 +176,7 @@ while True:
         w()
         write()
         rm()
-        print("\n\nDone :)\n\npath : " + "\33[92m~/" + file_name_2 + "\n\33[97m")
+        print("\n\nDone :)\n\npath : " + "\33[92m" + file_name_2 + "\n\33[97m")
         
     elif cmd == "0":
         print("\nExiting...", end="\r")
